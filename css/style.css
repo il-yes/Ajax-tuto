@@ -1,0 +1,37 @@
+.header{
+	border-bottom: 1px solid #ccc;
+}
+
+.letters{
+	margin: 10px 0px;
+	padding: 10px 0px;
+	border-right: 1px solid #ccc;
+}
+.content {
+    margin-top: 20px;
+}
+.btn{
+	margin-top: 10px;
+}
+#loading{
+	display: none;
+
+}
+table th{
+	width: 100px;
+	text-align: center;
+}
+thead{
+	background-color: #ccc;
+	border-top-radius-right: 7px;
+	border-top-radius-left: 7px;
+}
+.fa-sort{
+	display: none;
+}
+.sort-alpha:hover{
+	cursor: pointer;
+}
+.sort-alpha:hover .fa-sort{
+	display: inline-block;
+}

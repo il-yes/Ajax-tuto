@@ -1,0 +1,32 @@
+var entries = [
+	{
+	"term": "BADAUD",
+	"part": "n.",
+	"definition": "L'expression de badaud qu'on applique aux Parisiens comme
+	une injure, vient, dit-on, d'un mot celtique qui signifie batelier, parce
+	que les Parisiens faisaient autrefois un grand commerce par eau. La ville
+	de Paris porte même un navire pour armoiries.",
+	"quote": [
+		"De peur d'offenser sa patrie,",
+		"Journel, mon imprimeur, digne enfant de Paris,",
+		"Ne veut rien imprimer sur la badauderie.",
+		"Journel est bien de son pays."
+	],
+	"author": "Ménage"
+	},
+	{
+	"term": "BOITER",
+	"part": "v. tr.",
+	"definition": "Un homme qui venait d'acheter un cheval, à la vue, reconnut
+	qu'il était boiteux et voulut résilier son marché. Mais le vendeur
+	témoigna qu'il l'avait prévenu de ce défaut, en lui disant : Il boite et
+	mange bien."
+	},
+	{
+	"term": "BONHEUR",
+	"part": "n.",
+	"definition": "Le moyen d'être heureux en ménage, c'est de se marier au
+	point du jour, parce qu'alors on est sûr d'avoir fait un mariage de
+	bonne heure."
+	}
+];

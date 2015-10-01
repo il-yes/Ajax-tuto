@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Model-titre</title>
+	    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"
+	rel="stylesheet">
+	    <link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="header">
+					<h1>Le dictionnaire des calembours</h1>
+				</div>
+				<div class="col-sm-2 lettre">
+					<div class="letters">
+						<div class="letter" id="letter-a">
+							<h3><a href="#">A</a></h3>
+						</div>
+						<div class="letter" id="letter-b">
+							<h3><a href="#">B</a></h3>
+						</div>
+						<div class="letter" id="letter-c">
+							<h3><a href="#">C</a></h3>
+						</div>
+						<div class="letter" id="letter-d">
+							<h3><a href="#">D</a></h3>
+						</div>
+						<div class="letter" id="letter-e">
+							<h3>E</h3>
+							<ul>
+								<li><a href="e.php?term=écrire">Écrire</a></li>
+								<li><a href="e.php?term=effort">Effort</a></li>
+								<li><a href="e.php?term=emploi">Emploi</a></li>
+								<li><a href="e.php?term=encorné">Encorné</a></li>
+								<li><a href="e.php?term=encre">Encre</a></li>
+								<li><a href="e.php?term=enseigner">Enseigner</a></li>
+								<li><a href="e.php?term=envieux">Envieux</a></li>
+								<li><a href="e.php?term=épiciers">Épiciers</a></li>
+								<li><a href="e.php?term=esprit">Esprit</a></li>
+								<li><a href="e.php?term=été">Été</a></li>
+								<li><a href="e.php?term=exécutif">Exécutif</a></li>
+							</ul>
+						</div>
+						<div class="letter" id="letter-f">
+						<h3>F</h3>
+							<form class="form-group text-center">
+								<input class="form-control" type="text" name="term" value="" id="term" />
+								<input class="btn btn-primary" type="submit" name="search" value="rechercher" id="search" />
+							</form>
+						</div>
+						<div class="letter" id="letter-h">
+							<h3><a href="#">H</a></h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-10 content">
+					<div id="dictionary">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<table class="sortable table table-striped table-condensed">
+					<thead>
+						<tr>
+							<th></th>
+							<th class="sort-alpha">Titre <i class="fa fa-sort"></i></th>
+							<th class="sort-alpha">Auteur(s) <i class="fa fa-sort"></th>
+							<th class="sort-alpha">Date <i class="fa fa-sort"></i></th>
+							<th class="sort-alpha">Prix <i class="fa fa-sort"></i></th>
+						</tr>
+					</thead>
+					<tbody class="text-center">
+						<tr>
+							<td><img src="img/1.jpg" width="49"
+							height="61" alt="Building Websites with Joomla! 1.5 Beta 1" />
+							</td>
+							<td>Building Websites with Joomla! 1.5 Beta 1</td>
+							<td>Hagen Graf</td>
+							<td>Févr 2007</td>
+							<td>40,49 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/2.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>30,49 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/3.jpg" width="49"
+							height="61" alt="Building Websites with Joomla! 1.5 Beta 1" />
+							</td>
+							<td>Building Websites with Joomla! 1.5 Beta 1</td>
+							<td>Hagen Graf</td>
+							<td>Févr 2007</td>
+							<td>78,95 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/4.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>28,15 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/5.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>28,15 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/6.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>28,15 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/7.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>28,15 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/8.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>28,15 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/9.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>28,15 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/10.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>28,15 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/11.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>28,15 €</td>
+						</tr>
+						<tr>
+							<td><img src="img/12.jpg" width="49"
+							height="61" alt="Learning Mambo: A Step-by-Step Tutorial to Building
+							Your Website" />
+							</td>
+							<td>Learning Mambo: A Step-by-Step Tutorial to Building Your Website
+							</td>
+							<td>Douglas Paterson</td>
+							<td>Déc 2006</td>
+							<td>28,15 €</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+
+	<script	src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script	src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	<script src="js/step1.js"></script>
+	<script src="js/step2.js"></script>
+	<script src="js/xml.js"></script>
+	<script src="js/e.js"></script>
+	<script src="js/f.js"></script>
+	<script src="js/h.js"></script>
+	<script src="js/table.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#letter-c a').click(function() {
+				$.getScript('js/c.js');
+				return false;
+			});
+		});
+	</script>
+	</body>
+</html>
